@@ -3,15 +3,15 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use App\Models\User;
-use App\Models\Type;
-use App\Models\Company;
-use App\Models\Department;
-use App\Models\UserMeta;
-use App\Models\UsersBlacklist;
-use App\Models\UserLanguages;
-use App\Models\Town;
-use App\Models\UserTowns;
+use DTApi\Models\User;
+use DTApi\Models\Type;
+use DTApi\Models\Company;
+use DTApi\Models\Department;
+use DTApi\Models\UserMeta;
+use DTApi\Models\UsersBlacklist;
+use DTApi\Models\UserLanguages;
+use DTApi\Models\Town;
+use DTApi\Models\UserTowns;
 
 class CreateOrUpdateTest extends TestCase
 {
